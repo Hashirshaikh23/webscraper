@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 *.log
 venv/
-output/
+!output/.gitkeep
 logs/
 *.DS_Store
 .env
