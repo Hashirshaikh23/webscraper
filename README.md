@@ -19,24 +19,30 @@ This submission demonstrates **Basic Level** data extraction:
 ## ⚙️ Setup & Run Instructions
 
 ### 📦 1. Clone the Repository
-
+```
 git clone https://github.com/<your-username>/company-scraper.git
+```
+```
 cd company-scraper
-
+```
 
 ## 2. Create Virtual Environment & Install Dependencies 
-
+```
 python3 -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+```
+
 
 ## 3. Run Command-Line Scraper
-
+```
 python main.py --urls urls.txt --output json
+```
 
 ## 4. Run Web Interface
-
+```
 python app.py
+```
 
 Then open: http://127.0.0.1:5000/
 
